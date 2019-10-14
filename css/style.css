@@ -4,6 +4,13 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+/* 
+gradient colours: #636FA4, #E8CBC0
+footer colour: 1a2a6c  
+*/
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -62,7 +69,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7409,12 +7417,12 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
-      color: #404044; }
+      color: #1a2a6c; }
 
 .navbar-brand {
   font-weight: 700;
   line-height: 1;
-  font-size: 20px;
+  font-size: 30px;
   text-transform: uppercase; }
 
 .owl-carousel {
@@ -7483,13 +7491,13 @@ h1, h2, h3, h4, h5,
         content: '';
         opacity: .99;
         background: #448ef6;
-        background: -moz-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: -webkit-gradient(left bottom, right top, color-stop(0%, #29bae4), color-stop(100%, #ee76ad));
-        background: -webkit-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: -o-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: -ms-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        background: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 ); }
+        background: -moz-linear-gradient(45deg, #636FA4 0%, #E8CBC0 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, #636FA4), color-stop(100%, #E8CBC0));
+        background: -webkit-linear-gradient(45deg, #636FA4 0%, #E8CBC0 100%);
+        background: -o-linear-gradient(45deg, #636FA4 0%, #E8CBC0 100%);
+        background: -ms-linear-gradient(45deg, #636FA4 0%, #E8CBC0 100%);
+        background: linear-gradient(45deg, #636FA4 0%, #E8CBC0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#636FA4', endColorstr='#E8CBC0', GradientType=1 ); }
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
         height: calc(100vh - 117px);
@@ -7516,8 +7524,8 @@ h1, h2, h3, h4, h5,
             content: '';
             background: #fff; }
         .owl-carousel.home-slider .slider-item .slider-text p {
-          font-size: 20px;
-          line-height: 1.5;
+          font-size: 24px;
+          line-height: 1.7;
           font-weight: 300;
           color: rgba(255, 255, 255, 0.8); }
           .owl-carousel.home-slider .slider-item .slider-text p strong {
@@ -8034,7 +8042,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #29bae4;
+  background: #1a2a6c;
   padding: 12em 0 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8043,8 +8051,8 @@ textarea.form-control {
     font-weight: normal;
     color: #fff;
     margin-bottom: 40px;
-    font-size: 18px;
-    font-weight: 300; }
+    font-size: 24px;
+    font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a span {
     color: #fff; }
   .ftco-footer p {
@@ -8054,8 +8062,8 @@ textarea.form-control {
     .ftco-footer a:hover {
       color: #fff; }
   .ftco-footer .ftco-heading-2 {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     color: #404044; }
 
 .ftco-footer-social li {
