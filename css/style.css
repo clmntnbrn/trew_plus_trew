@@ -7514,6 +7514,7 @@ h1, h2, h3, h4, h5,
             font-weight: 800; }
         .owl-carousel.home-slider .slider-item .slider-text .typewrite > .wrap {
           position: relative;
+          font-weight: 400;
           border-right: 0.08em solid rgba(255, 255, 255, 0); }
           .owl-carousel.home-slider .slider-item .slider-text .typewrite > .wrap:after {
             position: absolute;
@@ -8043,7 +8044,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #1a2a6c;
-  padding: 12em 0 8em 0; }
+  padding: 4em 0 4em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
