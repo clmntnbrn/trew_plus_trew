@@ -7514,7 +7514,7 @@ h1, h2, h3, h4, h5,
             font-weight: 800; }
         .owl-carousel.home-slider .slider-item .slider-text .typewrite > .wrap {
           position: relative;
-          font-weight: 400;
+          font-weight: 600;
           border-right: 0.08em solid rgba(255, 255, 255, 0); }
           .owl-carousel.home-slider .slider-item .slider-text .typewrite > .wrap:after {
             position: absolute;
